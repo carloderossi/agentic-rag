@@ -31,7 +31,7 @@ The system follows this high-level architecture:
 
 ## Prerequisites
 
-- Python 3.9+
+- Python 3.12+
 - API keys for:
   - Qdrant (vector database)
   - Tavily (web search)
@@ -41,7 +41,7 @@ The system follows this high-level architecture:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/agentic-rag.git
+git clone https://github.com/carloderossi/agentic-rag.git
 cd agentic-rag
 
 # Create a virtual environment
@@ -155,27 +155,7 @@ Observation: [Detailed web search results]
 Final Answer: According to the most recent financial reports and market data, Alphabet reported total revenue of approximately $348.3 billion for the full fiscal year 2024, representing an 11.8% increase from 2023. For Q1 2025, Alphabet reported revenue of $92.4 billion, showing continued growth of 13.6% year-over-year. These results were driven primarily by strong performance in Google Search and YouTube advertising.
 ```
 
-## File Structure
 
-```
-agentic-rag/
-├── agentic_rag/
-│   ├── __init__.py
-│   ├── core.py            # Main implementation
-│   ├── document_loader.py # Document loading and processing
-│   ├── embeddings.py      # Embedding model wrappers
-│   ├── search.py          # Search implementations
-│   ├── agent.py           # Agent definitions
-│   └── utils.py           # Utility functions
-├── examples/
-│   ├── basic_usage.py     # Simple usage example
-│   ├── custom_agent.py    # Customized agent example
-│   └── batch_processing.py # Processing multiple documents
-├── tests/                 # Test suite
-├── requirements.txt       # Dependencies
-├── setup.py               # Package installation
-└── README.md              # This file
-```
 
 ## Performance Considerations
 
