@@ -214,9 +214,9 @@ If you use this code in your research or project, please cite:
 
 ```bibtex
 @software{agentic_rag_system,
-  author = {Your Name},
+  author = {Carlo De Rossi},
   title = {Agentic RAG System},
   year = {2025},
-  url = {https://github.com/yourusername/agentic-rag}
+  url = {https://github.com/carloderossi/agentic-rag}
 }
 ```
